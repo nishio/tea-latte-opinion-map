@@ -5,7 +5,7 @@
 <title>午後ティーの新作、あなたの「好き」はどこにある？ | 広聴AI</title>
 <meta name="description" content="午後の紅茶 TEA LATTEの公開SNS投稿を広聴AIで分析。紅茶の濃さ、ミルク感、甘さや後味。好みが分かれる理由を、意見の地図でたどります。">
 <meta property="og:type" content="website"><meta property="og:locale" content="ja_JP"><meta property="og:title" content="午後ティーの新作、あなたの「好き」はどこにある？"><meta property="og:description" content="公開SNS投稿を広聴AIで分析。どっち派？から、その理由へ。"><meta property="og:url" content="https://nishio.github.io/tea-latte-opinion-map/"><meta property="og:image" content="https://nishio.github.io/tea-latte-opinion-map/share.png"><meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="landing.css?v=20261010-bridge"><link rel="icon" href="favicon.svg" type="image/svg+xml"><script src="landing.js?v=20261010-bridge" defer></script>
+<link rel="stylesheet" href="landing.css?v=20261010-story"><link rel="icon" href="favicon.svg" type="image/svg+xml"><script src="landing.js?v=20261010-story" defer></script>
 </head>
 <body>
 <a class="skip" href="#explore">みんなの感想へ</a>
@@ -39,17 +39,25 @@
 </section>
 <section class="section beyond-tea" id="beyond-tea" aria-labelledby="beyond-title">
 <div class="section-heading"><p class="eyebrow">03 / BEYOND TWO SIDES</p><h2 id="beyond-title">「どっち派？」だけでは、<br>見えないこと。</h2><p>好きな商品で二つに分けると、違いばかりが目に入ります。<br>でも、理由まで読んでみると、別のつながりが見えてきます。</p></div>
+<div class="map-story" id="map-story">
+<div class="story-controls" id="story-controls" role="group" aria-label="散布図を順番に読む" hidden><button type="button" data-step="0" aria-pressed="true">1 共通点を見る</button><button type="button" data-step="1" aria-pressed="false">2 違いを見る</button><button type="button" data-step="2" aria-pressed="false">3 全体を見る</button></div>
+<div class="story-intro" id="story-intro" hidden><p id="story-progress" class="eyebrow" aria-live="polite"></p><h3 id="story-title" tabindex="-1"></h3><p id="story-description"></p></div>
+<div class="story-layout">
+<figure class="story-figure" id="story-figure" hidden><svg id="story-map" viewBox="0 0 800 520" role="img" aria-labelledby="story-svg-title story-svg-desc"><title id="story-svg-title"></title><desc id="story-svg-desc"></desc></svg><figcaption id="story-caption"></figcaption><div id="story-legend" class="story-legend" hidden></div><p class="story-map-note">1点＝AIが要約した1意見。3段階とも同じ配置です。位置は意見全体の類似性から計算しており、点の距離だけで共通点や対立は決まりません。人数・支持率を示す図ではありません。</p></figure>
 <div class="bridge-examples">
 <article class="bridge-example"><p class="eyebrow">違う側にも、共通点</p><h3>選ぶ商品は違う。<br>好きなのは、すっきり感。</h3><ul>
-<li><span class="voice-label">ESPRESSOが好きな人</span><p>いつものミルクティーより、後味がすっきりしていて好き。</p><a href="https://x.com/yuno_sn0122/status/2108043321310650394" target="_blank" rel="noopener noreferrer">元の投稿 ↗</a></li>
-<li><span class="voice-label">CREAM &amp; MILKが好きな人</span><p>両方飲んで、白い方がすっきり飲めて好き。</p><a href="https://x.com/usyh0013/status/2107625278738739531" target="_blank" rel="noopener noreferrer">元の投稿 ↗</a></li>
+<li><span class="voice-label"><b class="point-key">A</b> ESPRESSOが好きな人</span><p>いつものミルクティーより、後味がすっきりしていて好き。</p><a href="https://x.com/yuno_sn0122/status/2108043321310650394" target="_blank" rel="noopener noreferrer">元の投稿 ↗</a></li>
+<li><span class="voice-label"><b class="point-key">B</b> CREAM &amp; MILKが好きな人</span><p>両方飲んで、白い方がすっきり飲めて好き。</p><a href="https://x.com/usyh0013/status/2107625278738739531" target="_blank" rel="noopener noreferrer">元の投稿 ↗</a></li>
 </ul><p class="example-takeaway">「どっちが好き？」の答えが違っても、大切にする味わいは重なります。</p></article>
 <article class="bridge-example"><p class="eyebrow">同じ側にも、違い</p><h3>同じESPRESSOを楽しむ。<br>ほしい甘さは、違う。</h3><ul>
-<li><span class="voice-label">もう少し甘さを控えたい人</span><p>昔の茶葉2倍ミルクティーに似ていて良い。甘さはもう少し控えめだとうれしい。</p><a href="https://x.com/inventario_tea/status/2107752309610705050" target="_blank" rel="noopener noreferrer">元の投稿 ↗</a></li>
-<li><span class="voice-label">甘さを足して楽しむ人</span><p>甘さがなく、シロップを入れたらおいしい。追加で買ってきた。</p><a href="https://x.com/s2s2s21210/status/2108187697852616704" target="_blank" rel="noopener noreferrer">元の投稿 ↗</a></li>
+<li><span class="voice-label"><b class="point-key">A</b> もう少し甘さを控えたい人</span><p>昔の茶葉2倍ミルクティーに似ていて良い。甘さはもう少し控えめだとうれしい。</p><a href="https://x.com/inventario_tea/status/2107752309610705050" target="_blank" rel="noopener noreferrer">元の投稿 ↗</a></li>
+<li><span class="voice-label"><b class="point-key">B</b> 甘さを足して楽しむ人</span><p>甘さがなく、シロップを入れたらおいしい。追加で買ってきた。</p><a href="https://x.com/s2s2s21210/status/2108187697852616704" target="_blank" rel="noopener noreferrer">元の投稿 ↗</a></li>
 </ul><p class="example-takeaway">同じ商品に「おいしい」と言う人も、求める味が同じとは限りません。</p></article>
+<article class="story-full" id="story-full" hidden><p class="eyebrow">気になる声を、もっと読む</p><h3>今度は、自分で<br>点を選んでみよう。</h3><p>点を押すと、その感想がここに表示されます。</p><div class="story-selected" aria-live="polite" aria-atomic="true"><p id="story-selected-category" class="category"></p><p id="story-selected-text"></p><a id="story-selected-source" target="_blank" rel="noopener noreferrer">この感想の元投稿 ↗</a></div><div class="story-read-nav"><button id="story-voice-prev" type="button">← 前の感想</button><button id="story-voice-next" type="button">次の感想 →</button></div><a class="button primary" href="report/">全377件を全画面で探索する ↗</a></article>
+</div></div>
+<div class="story-navigation" id="story-navigation" hidden><button type="button" id="story-back">← 前に戻る</button><button type="button" id="story-next" class="button primary">次へ：同じ側の違いを見る →</button><a class="button primary" id="story-open-full" href="report/" hidden>広聴AIの全画面で探索する ↗</a></div>
 </div>
-<p class="entry-note">上の4件は、収集した元投稿と照合した要約です。理由の重なりと違いを示す例として選んでいます。</p>
+<p class="entry-note">強調した4件は、収集した元投稿と照合した要約です。理由の重なりと違いを示す例として選んでいます。</p>
 <div class="democracy-bridge"><p class="eyebrow">紅茶から、社会の話へ</p><h2>政治の話も、<br>二色では描けない。</h2>
 <p>現実の政治でも、「賛成派」と「反対派」の間に共通の願いがあり、同じ陣営の中にも意見の食い違いがあります。二つのラベルだけでは、一人ひとりが何を大切にし、何を心配しているのかは見えてきません。</p>
 <p>たとえば、ある政策への賛否が分かれていても、暮らしの安心を願う気持ちは共通かもしれません。同じ賛成でも、期待する効果や受け入れられる条件は違うかもしれません。</p>

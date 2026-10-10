@@ -100,5 +100,20 @@
         }
       ]
     }
-  ]
+  ],
+  "bridge_examples": {
+    "purpose": "選ぶ商品が違っても理由が重なる例と、同じ商品を肯定しても望む甘さが違う例。政治的対立の実証ではなく、理由を聴く視点への導入。",
+    "reviewed_at": "2026-10-10",
+    "review": "収集済みの元投稿本文4件と要約をCodexが照合。人間による正解評価ではない。",
+    "argument_ids": [
+      "A0175",
+      "A0255",
+      "A0222",
+      "A0111"
+    ],
+    "project_links": [
+      "https://dd2030.org/kouchou-ai/",
+      "https://dd2030.org/about/"
+    ]
+  }
 }

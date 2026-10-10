@@ -1,0 +1,104 @@
+{
+  "title": "午後の紅茶の新作、好みはどこで分かれる？",
+  "created_at": "2026-10-10",
+  "input_posts": 548,
+  "arguments": 377,
+  "posts_with_arguments": 415,
+  "collection_counts": {
+    "retrieved_unique_posts": 1485,
+    "within_period": 1421,
+    "product_candidates": 1216,
+    "taste_candidates": 550,
+    "duplicate_texts_removed": 2
+  },
+  "collection_source": "Yahoo!リアルタイム検索の公開表示（元投稿はX）",
+  "collection_queries": [
+    "午後の紅茶 ティーラテ",
+    "午後の紅茶 エスプレッソ",
+    "午後の紅茶 クリーム",
+    "午後の紅茶 \"TEA LATTE\"",
+    "午後の紅茶 どっち",
+    "午後の紅茶 飲み比べ",
+    "午後の紅茶 青",
+    "午後の紅茶 白",
+    "午後の紅茶 TEALATTE",
+    "午後の紅茶 新作",
+    "午後の紅茶 新しい",
+    "午後ティー ラテ",
+    "午後ティー エスプレッソ",
+    "午後ティー クリーム"
+  ],
+  "period_jst": "2026-10-05 00:00–2026-10-10 14:34",
+  "method": "Keyword candidates → LLM extraction → source audit and agent corrections → embeddings → hierarchical clustering → AI labels",
+  "analysis_core_commit": "c297bc97bb2bbce42964a90d7501c2d3592aeaf0",
+  "model": "gpt-4.1",
+  "embedding": "text-embedding-3-small",
+  "cluster_levels": [
+    5,
+    15
+  ],
+  "initial_arguments": 385,
+  "removed_arguments": 8,
+  "corrected_arguments": 15,
+  "review": "AI audit of extracted opinions; Codex review of flags, product-identity checks and the six highlighted source passages. Not human gold. Unflagged errors and omitted opinions may remain.",
+  "color_aliases": "青/白の明示がある投稿は公式画像のESPRESSO/CREAM & MILK対応も参照。種類不明を補った抽出は検出分を修正。",
+  "official_product_source": "https://www.kirinholdings.com/jp/newsroom/release/2026/0910_02.html",
+  "caveats": [
+    "便宜抽出。網羅性・無作為性・支持率は示さない。",
+    "同一投稿者の複数投稿を含む。点は人数ではない。",
+    "検索表示本文に基づく。画像・引用先・会話文脈は読んでいない。",
+    "AI抽出・除外・要約・群名に誤りが残りうる。",
+    "公開版は原文全件・投稿者一覧・埋め込み・実行環境情報を含まない。"
+  ],
+  "short_labels": {
+    "1_2": "ESPRESSOの味",
+    "1_4": "ティーラテへの期待と好み",
+    "1_1": "2種類を飲み比べる",
+    "1_3": "CREAM & MILKの味",
+    "1_5": "味わいと、また飲みたい気持ち"
+  },
+  "insights": [
+    {
+      "title": "同じ一杯に、濃い／薄い。",
+      "body": "ESPRESSOを「紅茶が濃い」と感じる声の隣に、「もっとお茶の濃さがほしい」という声。濃さの感じ方にも幅があります。",
+      "evidence": [
+        {
+          "paraphrase": "ESPRESSOは茶葉が濃いめと感じた。",
+          "url": "https://x.com/znsyn/status/2107130954158682514"
+        },
+        {
+          "paraphrase": "ESPRESSOは水っぽく、もっと茶の濃さがほしい。",
+          "url": "https://x.com/blackwhitewing/status/2107610606979428410"
+        }
+      ]
+    },
+    {
+      "title": "甘さの感じ方も、一通りじゃない。",
+      "body": "CREAM & MILKでも、甘すぎるという感想と思ったほど甘くないという感想。商品名だけでは、好みを言い切れません。",
+      "evidence": [
+        {
+          "paraphrase": "CREAM & MILKは自分には甘すぎる。",
+          "url": "https://x.com/Kiki_zatta/status/2108324618935431418"
+        },
+        {
+          "paraphrase": "CREAM & MILKは予想より甘さが控えめだった。",
+          "url": "https://x.com/sakumai000/status/2107314050141184079"
+        }
+      ]
+    },
+    {
+      "title": "「どっちも」という答えもある。",
+      "body": "二択にすると落ちてしまう、両方おいしい、両方苦手という声。好みの理由までたどると、見える景色が広がります。",
+      "evidence": [
+        {
+          "paraphrase": "二つを飲み、どちらもおいしいと感じた。",
+          "url": "https://x.com/moca_0216/status/2107623778952081918"
+        },
+        {
+          "paraphrase": "両方とも香料が強く、甘すぎると感じた。",
+          "url": "https://x.com/akirr_vv/status/2107700286479581308"
+        }
+      ]
+    }
+  ]
+}
